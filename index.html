@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="dist/output.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-gray-300 flex flex-col items-center justify-center h-screen mr-4 ml-4">
+
+  <div class="flex flex-col gap-16 p-8 bg-white rounded-s-xl rounded-r-xl rounded-br-[8rem] rounded-bl-xl max-w-full max-h-full w-[33rem] sm:gap-8">
+    <div class="flex gap-x-4 sm:gap-x-14">
+      <div class="flex flex-col gap-y-3">
+        <label class="font-medium text-[0.7rem] tracking-[0.3em] flex flex-col gap-y-4">DAY
+         <input type="number" id="dayInput" placeholder="DD" class="border border-gray-300 w-20 h-10 rounded-md p-2 font-semibold text-base">
+         <p id="errorDay" class="text-red-600 font-bold"></p>
+        </label>
+      </div>
+      <div class="flex flex-col gap-y-3">
+        <label class="font-medium text-[0.7rem] tracking-[0.3em] flex flex-col gap-y-4">MONTH
+         <input type="number" id="monthInput" placeholder="MM" class="border border-gray-300 w-20 h-10 rounded-md p-2 font-semibold text-base">
+         <p id="errorMonth" class="text-red-600 font-bold"></p>
+        </label>
+      </div>
+      <div class="flex flex-col gap-y-3">
+        <label class="font-medium text-[0.7rem] tracking-[0.3em] flex flex-col gap-y-4">YEAR
+         <input type="number" id="yearInput" placeholder="YYYY" class="border border-gray-300 w-20 h-10 rounded-md p-2 font-semibold text-base">   
+        </label>
+      </div>
+    </div>
+
+    <hr class="relative w-full">
+    <button onclick="calculateAge()" class="absolute right-[40%] top-[31.25%] sm:top-[27%] sm:right-[25%]">
+      <img src="assets/images/icon-arrow.svg" alt="arrow image" class="w-[4.50rem] h-[4.50rem] p-3 bg-violet-600 rounded-full">
+    </button>
+    
+
+    <div id="result" class="flex flex-col items-start gap-y-4 p-4 sm:p-2 sm:gap-y-2">
+      <h2 class="text-[3.50rem] italic font-bold sm:text-[5rem]"><span id="yearsResult" class="text-violet-600">--</span> years</h2>
+      <h2 class="text-[3.50rem] italic font-bold sm:text-[5rem]"><span id="monthsResult" class="text-violet-600">-</span> months</h2>
+      <h2 class="text-[3.50rem] italic font-bold sm:text-[5rem]"><span id="daysResult" class="text-violet-600">--</span> days</h2>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sefat khan</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
