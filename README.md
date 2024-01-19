@@ -1,6 +1,7 @@
 # age-calculator-app-main
 
 Age Calculator App
+
 This repository contains the source code for an Age Calculator web application. The app allows users to input their birthdate and receive their age in years, months, and days. It was created as a solution to a challenge on Frontend Mentor.
 
 Features
