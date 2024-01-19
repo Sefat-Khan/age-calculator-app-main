@@ -32,6 +32,8 @@ Clone the repository:[ git clone https://github.com/your-username/age-calculator
 
 Open the index.html file in your web browser.
 
+https://sefat-khan.github.io/age-calculator-app-main/
+
 Usage
 
 Enter the day, month, and year of your birthdate in the respective input fields.
