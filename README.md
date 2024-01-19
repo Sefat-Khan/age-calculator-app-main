@@ -28,7 +28,8 @@ Responsive Design: The app is designed to be responsive, adapting to various scr
 
 Getting Started
 
-Clone the repository: git clone https://github.com/your-username/age-calculator-app.git
+Clone the repository:[ git clone https://github.com/your-username/age-calculator-app.git](https://github.com/Sefat-Khan/age-calculator-app-main.git)
+
 Open the index.html file in your web browser.
 
 Usage
