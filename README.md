@@ -44,4 +44,4 @@ Credits
 
 Challenge by Frontend Mentor.
 
-Coded by [Sef
+Coded by [Sefat khan]
